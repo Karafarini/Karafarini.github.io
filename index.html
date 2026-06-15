@@ -1,98 +1,120 @@
 <!DOCTYPE html>
-<html lang="fa">
+<html lang="fa" dir="rtl">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>مرکز مهرگستر حاجی آباد</title>
-
-<style>
-body {
-  margin: 0;
-  font-family: sans-serif;
-  direction: rtl;
-  background: #f4f6f8;
-}
-
-/* Header */
-header {
-  background: white;
-  text-align: center;
-  padding: 25px 15px;
-  border-bottom: 1px solid #ddd;
-}
-
-.logo {
-  width: 140px;
-  height: 140px;
-  object-fit: contain;
-  display: block;
-  margin: 0 auto;
-}
-
-header h1 {
-  font-size: 18px;
-  margin-top: 12px;
-  color: #222;
-  line-height: 1.6;
-}
-
-/* Button */
-.btn {
-  display: inline-block;
-  margin-top: 15px;
-  padding: 10px 18px;
-  background: #0a66c2;
-  color: white;
-  text-decoration: none;
-  border-radius: 8px;
-  transition: 0.2s;
-}
-
-.btn:hover {
-  background: #084a91;
-}
-
-/* Container */
-.container {
-  max-width: 900px;
-  margin: 0 auto;
-  padding: 20px;
-}
-
-/* Footer */
-footer {
-  background: #111;
-  color: white;
-  text-align: center;
-  padding: 25px 15px;
-  margin-top: 40px;
-  line-height: 1.8;
-}
-</style>
-
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>مرکز مهرگستر حاجی آباد</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; font-family: Tahoma, Arial, sans-serif; }
+    body {
+      background: linear-gradient(135deg, #f5f7fa 0%, #e4e9f2 100%);
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+    header {
+      background: #2c3e50;
+      color: white;
+      padding: 25px 0;
+      text-align: center;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.15);
+    }
+    .logo {
+      max-width: 220px;
+      height: auto;
+      margin-bottom: 15px;
+      border-radius: 50%;
+      background: white;
+      padding: 8px;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+    }
+    .header-title {
+      font-size: 1.75rem;
+      margin-top: 10px;
+      font-weight: bold;
+      line-height: 1.3;
+    }
+    main {
+      flex: 1;
+      padding: 40px 20px;
+      max-width: 1100px;
+      margin: 0 auto;
+      width: 100%;
+    }
+    section {
+      background: white;
+      padding: 35px;
+      margin-bottom: 30px;
+      border-radius: 12px;
+      box-shadow: 0 5px 20px rgba(0,0,0,0.08);
+    }
+    h1, h2 {
+      color: #2c3e50;
+      margin-bottom: 20px;
+    }
+    .btn {
+      display: inline-block;
+      background: #27ae60;
+      color: white;
+      padding: 15px 32px;
+      border-radius: 8px;
+      text-decoration: none;
+      font-size: 1.15rem;
+      margin-top: 20px;
+      transition: all 0.3s;
+    }
+    .btn:hover {
+      background: #219653;
+      transform: translateY(-4px);
+      box-shadow: 0 8px 15px rgba(39,174,96,0.3);
+    }
+    footer {
+      background: #2c3e50;
+      color: #ddd;
+      text-align: center;
+      padding: 30px 15px;
+      margin-top: auto;
+    }
+    .contact-info {
+      font-size: 1.1rem;
+      line-height: 2;
+    }
+  </style>
 </head>
-
 <body>
 
-<header>
-  <!-- لوگو -->
-  <img src="logo.png" alt="logo" class="logo">
+  <header>
+    <img src="logo.png" alt="لوگوی مرکز مهرگستر" class="logo">
+    <h1 class="header-title">مرکز مشاوره ، اطلاع رسانی و خدمات کارآفرینی مهرگستر حاجی آباد</h1>
+  </header>
 
-  <h1>
-    مرکز مشاوره ، اطلاع رسانی و خدمات کارآفرینی مهرگستر حاجی آباد
-  </h1>
+  <main>
+    <section>
+      <h2>معرفی مرکز</h2>
+      <p style="line-height: 2; font-size: 1.1rem; text-align: justify;">
+        مرکز مشاوره، اطلاع‌رسانی و خدمات کارآفرینی مهرگستر حاجی‌آباد با هدف حمایت از کارآفرینان، 
+        ایجاد اشتغال پایدار و توسعه اقتصادی منطقه فعالیت می‌کند. 
+        این مرکز با ارائه مشاوره‌های تخصصی کسب‌وکار، برگزاری دوره‌های آموزشی، 
+        اطلاع‌رسانی فرصت‌های شغلی و تسهیل در دریافت مجوزها و تسهیلات، 
+        در کنار شما عزیزان است تا ایده‌هایتان را به کسب‌وکارهای موفق تبدیل کنید.
+      </p>
+    </section>
 
-  <a class="btn" href="ads.html">📢 مشاهده آگهی‌ها</a>
-</header>
+    <section style="text-align: center;">
+      <h2>آگهی‌های فرصت‌های شغلی و کارآفرینی</h2>
+      <a href="ads.html" class="btn">مشاهده همه آگهی‌ها</a>
+    </section>
+  </main>
 
-<div class="container">
-  <!-- فضای خالی برای توسعه بعدی -->
-</div>
-
-<footer>
-  <p>آدرس: استان هرمزگان، شهرستان حاجی آباد، بلوار بهشتی، ساختمان قدیم بانک قوامین</p>
-  <p>تلفن: 07635421881</p>
-</footer>
+  <footer>
+    <div class="contact-info">
+      <strong>آدرس:</strong> حاجی آباد ، خیابان بهشتی ، ساختمان قدیم بانک قوامین<br>
+      <strong>تلفن:</strong> ۰۷۶-۳۵۴۲۱۸۸۱
+    </div>
+    <p style="margin-top: 20px; font-size: 0.95rem; opacity: 0.9;">
+      © ۱۴۰۴ مرکز مشاوره و خدمات کارآفرینی مهرگستر حاجی آباد — تمامی حقوق محفوظ است
+    </p>
+  </footer>
 
 </body>
 </html>
